@@ -13,17 +13,20 @@ public class Operatorok {
         System.out.println("adjon meg egy karaktert");
         String char2=scanner.nextLine();
 
-        System.out.println("adjon meg egy karaktert");
+        System.out.println("adjon meg egy intet");
         int int1=scanner.nextInt();
 
-        System.out.println("adjon meg egy karaktert");
+        System.out.println("adjon meg egy intet");
         int int2=scanner.nextInt();
 
-        System.out.println("adjon meg egy karaktert");
+        System.out.println("adjon meg egy doublet");
         double dou1=scanner.nextDouble();
 
-        System.out.println("adjon meg egy karaktert");
+        System.out.println("adjon meg egy doublet");
         double dou2=scanner.nextDouble();
+
+        String osszefuz=szoveg+char1+char2;
+        System.out.println(osszefuz);
 
         int osztas=int1/int2;
         System.out.println(osztas);
